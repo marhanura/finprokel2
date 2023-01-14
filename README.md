@@ -1,2 +1,5 @@
-# finprokel2
-Finpro Kel 2
+# Final Project Kelompok 2 Rakamin
+
+## Stage 1 - EDA
+
+Hasil dari observasi statistik deskriptif dataset Marketing Campaign menunjukkan terdapat tipe data kolom yang kurang sesuai yaitu 'DT Customer' berupa string seharusnya date. Nilai kosong terdapat pada kolom 'income' sejumlah 24 baris. Berdasarkan nilai summary, nilai max kolom 'income' agak aneh karena berbeda jauh dari mean. Analisis univariat dataset menunjukkan kolom yang terdistibusi negative skew yaitu 'year_birth' dan 'numwebvistmonth', distribusi positive skew yaitu seluruh amount products, distribusi bimodal recency yaitu 'kidhome' dan 'teenhome'. Kolom 'income' memiliki outliers yang sangat jauh. Analisis multivariat menunjukkan terdapat 14 feature yang relevan: **acceptedcampaign 1-5**, **income**, **mntproducts (6)**, **numweb**, **numcatalog**. Analisis dari segi bisnis menyimpulkan bahwa pembeli dengan income tinggi lebih suka belanja langsung di store, dengan korelasi semakin tinggi income maka semakin banyak jumlah produk yang dibeli. Orang dengan income tinggi yag membeli melalui katalog paling suka membeli wine dan meat. Orang yang menerima campaign terakhir (accepted campaign 5) berpotensi untuk memberi respon dan kebanyakan memiliki income tinggi. Berdasarkan insight bisnis tersebut, direkomendasikan untuk menargetkan orang dengan income tinggi dan fokus pada penjualan melalui katalog berkategori wine dan meat.
