@@ -1,12 +1,3 @@
-# Final Project Kelompok 2
-## Laskar Online
-### Tema: Marketing Campaign
+## Stage 3 - Machine Learning Evaluation & Supervised Learning
 
-Anggota:
-- Angelus Felix Sihombing
-- Aisyah Raudhatuzzahra
-- Andri Lau
-- Edhita Kristasari
-- Marha Nur Amalina
-- Richard Noel
-- Saip Ardo Pratama
+Melakukan pemodelan dan evaluasi machine learning untuk mendapatkan hasil recall yang paling baik. Dari model Logistic Regression, Decision Tree, KNN, XGBoost, AdaBoost, SVM, Random Forest, dan Naive Bayes didapatkan nilai recall terbaik dengan XGBoost. Feature importance yang ditunjukkan yaitu NumCatalogPurchase, MntWines, dan Recency. 
